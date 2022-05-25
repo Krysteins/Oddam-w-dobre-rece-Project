@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rakieta import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.landing, name="landing_view"),
+    path('login/', views.login, name="login_view"),
+    path('register/', views.register, name="register_view"),
+    path('donation/', views.donation, name="donation_view")
+
 ]
