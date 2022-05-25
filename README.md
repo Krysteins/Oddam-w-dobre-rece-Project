@@ -1,1 +1,1 @@
-# Oddam-w-dobre-rece-Project
+# Oddam w dobre ręce Project
